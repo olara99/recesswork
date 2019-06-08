@@ -1,0 +1,30 @@
+print("hello world", Quote ="FALSE")
+print(paste("How","are","you"))
+4+5
+log(14)
+sqrt(121)
+char =c('obadia')
+logc=c(TRUE,FALSE)
+class(logc)
+v=c("a","b","c","d")
+v1=c(1,2,3,4)
+cbind(v,v1)
+class(cbind(v,v1))
+rbind(v,v1)
+class(rbind(v,v1))
+raza=list(1,"grill",TRUE,100L,sqrt(-4),2+3i)
+class(raza)
+raza[2][4]
+data.frame(name=c("olara","raza","ivan"), socre=c(1,2,3))
+df=data.frame(name=c("olara","raza","ivan","bwayo","allan"), socre=c(1,2,3,4,5))
+empid=c("cs01","cs02","cso3","cs04","cs05")
+empname=c("olara","raza","ivan","bwayo","allan")
+empsalary=c(200,400,500,100,434)
+data.frame(empid,empname,empsalary)
+str(df)
+ncol(df)
+nrow(df)
+summary(df)
+df$empname
+df$name
+df$socre
